@@ -1,3 +1,9 @@
+"""
+db_handle.py
+Author: leting130
+Date: 2024/4/17
+github:https://github.com/yating1022
+"""
 # 处理与数据库的交互，若是file_db_storage,返回路径
 def file_db_handle(datebase):
 # 数据存在文件
