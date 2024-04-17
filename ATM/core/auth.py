@@ -1,4 +1,5 @@
 import os
 import json
 import time
-from core import db_handle
+from ATM.core import db_handle
+from ATM.conf import settings
