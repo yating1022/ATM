@@ -28,7 +28,8 @@ def dump_account(account_data):
     :return:
     """
     db_path = db_handle.handle(settings.DATABASE)#通过多个引用，最后得到用户配置文件的路径
-    account_file = "%s/%s.json" %(db_path,account_data["account_id"])
+    print("====================%s"%db_path)
+    account_file = "%s/%s.json" %(db_path,account_data["id"])
     with open(account_file, "w+",encoding="utf-8") as f :
         json.dump(account_data,f)
     print("更新用户")

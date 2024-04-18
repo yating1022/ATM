@@ -19,8 +19,9 @@ def access_auth(account,password,log_obj):
     db_path = db_handle.handle(settings.DATABASE)
     # 调用db_handle下的handle方法，返回路径/db/accoutns
     #返回/home/leting130/DjangoProject/ATM/ATM/db/accounts
-    account_file = "%s/%s"%(db_path,account)
+    account_file = "%s/%s.json"%(db_path,account)
     #此处的account是用户名，
+    print("用户名：%s"%account)
     print(account_file)
     if os.path.isfile(account_file):#判断account目录下有没有用户名的json文件
         with open(account_file,'r',encoding="utf-8") as f:
@@ -31,10 +32,11 @@ def access_auth(account,password,log_obj):
                 # 将json中的时间转换为%Y-%m-%d格式的时间戳，这里的时间戳是json中的过期时间
                 if time.time() > expire_time:#time（）.time获取现在的时间，对比过期时间，看账户是否过期
                     log_obj.error("Account[%s] logging success"%account)
-                    print("Account %s had expired,Please contract the bank"%account)
-                    return account_data
+                    print("账号 %s 已经过期"%account)
+
                 else:
                     log_obj.info("Account[%s] does not exist!"%account)
+                    return account_data
     else:
         log_obj.error("Account[%s] does not exist!"%account)
         print("Account[%s] does not exist!"%account)

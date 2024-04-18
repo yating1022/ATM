@@ -1,0 +1,26 @@
+2020-10-28 01:43:09,480-transaction-INFO-Your account repay1000.0,your account new balance is 14650.0
+2020-10-28 01:43:36,113-transaction-INFO-Your account repay3000.0,your account new balance is 17650.0
+2020-10-28 01:44:06,938-transaction-INFO-Your account withdraw3000.0,your account new balance is 10500.0
+2020-10-28 01:44:16,113-transaction-INFO-Your account withdraw1000.0,your account new balance is 12650.0
+2020-10-28 01:44:16,113-transaction-INFO-Your account repay12650.0,your account new balance is 25300.0
+2020-10-28 01:52:59,139-transaction-INFO-Your account repay2000.0,your account new balance is 15650.0
+2020-10-28 02:02:04,536-transaction-INFO-Your account repay1000.0,your account new balance is 14650.0
+2020-10-28 02:17:25,708-transaction-INFO-Your account repay1000.0,your account new balance is 14650.0
+2020-10-28 02:17:44,976-transaction-INFO-Your account withdraw1000.0,your account new balance is 13600.0
+2020-10-28 02:18:18,181-transaction-INFO-Your account withdraw1000.0,your account new balance is 12550.0
+2020-10-28 02:19:03,298-transaction-INFO-Your account withdraw120.0,your account new balance is 12430.0
+2020-10-28 02:19:03,298-transaction-INFO-Your account repay12430.0,your account new balance is 24860.0
+2024-04-18 23:08:07,141-transaction-INFO-您的账户增加了20.0,你现在的余额为24880.0
+2024-04-18 23:11:04,032-transaction-INFO-您的账户增加了20.0,你现在的余额为24880.0
+2024-04-18 23:12:16,796-transaction-INFO-您的账户增加了20.0,你现在的余额为24880.0
+2024-04-18 23:13:35,919-transaction-INFO-您的账户增加了20.0,你现在的余额为24880.0
+2024-04-18 23:14:06,980-transaction-INFO-您的账户增加了20.0,你现在的余额为24880.0
+2024-04-18 23:15:25,374-transaction-INFO-您的账户增加了20.0,你现在的余额为24880.0
+2024-04-18 23:16:04,746-transaction-INFO-您的账户减少了20.0，你现在的余额为24859.0
+2024-04-18 23:16:10,924-transaction-INFO-您的账户减少了20.0，你现在的余额为24838.0
+2024-04-18 23:16:15,046-transaction-INFO-您的账户减少了50.0，你现在的余额为24785.5
+2024-04-18 23:17:34,384-transaction-INFO-您的账户减少了30.0，你现在的余额为24754.0
+2024-04-18 23:18:05,483-transaction-INFO-您的账户减少了4.0，你现在的余额为24750.0
+2024-04-18 23:21:32,455-transaction-INFO-您的账户增加了100.0,你现在的余额为24850.0
+2024-04-18 23:23:45,779-transaction-INFO-您的账户增加了50.0,你现在的余额为24900.0
+2024-04-18 23:24:16,829-transaction-INFO-您的账户增加了50.0,你现在的余额为24950.0
